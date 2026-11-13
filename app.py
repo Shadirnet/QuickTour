@@ -40,7 +40,7 @@ class TravelSystem:
             total *= 0.9  # 10% discount
         return total
 
-    def book_tour(self, package, lead_name, adults, children, discount = 0)
+    def book_tour(self, package, lead_name, adults, children, discount = 0):
         if (adults + children) >= 5:
             discount = 0.1
         total *= (1 - discount)
